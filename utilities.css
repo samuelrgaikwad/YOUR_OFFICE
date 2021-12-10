@@ -1,0 +1,149 @@
+/* TEXT COLORS */
+
+.text_primary{
+ color: #28a745;
+}
+
+.text_secondary{
+   columns: #0284d0;
+}
+
+
+/* BUTTON */
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #28a745 ;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+
+}
+
+.btn_primary , .bg_primary{
+    background-color: #28a745;
+    color: #fff;
+}
+.btn_secondary, .bg_secondary{
+    background-color: #0284d0;
+    color: #fff;
+}
+.btn_dark, .bg_dark {
+    background-color: #333;
+    color: #fff;
+}
+.btn_light, .bg_light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.btn_outline {
+    background:transparent ;
+    border: 1px solid #fff;
+}
+
+
+/* flex coloumns */
+
+
+
+ .flex-colums .flex_reverse .row{
+     flex-direction: row-reverse;
+}
+
+.flex-colums .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.flex-colums .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-colums .column .column_1,
+.flex-colums .column .column_2{
+    height: 100%;
+}
+
+.flex-colums img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-colums .column_2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-colums h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.flex-colums h4{
+    margin-bottom: 10px;
+}
+
+.flex-colums p{
+    margin: 20px 0 ;
+}
+
+/* SECTIONS HEADER */
+
+.section_header{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section_header h2{
+    font-size: 40px;
+    margin: 20px 0;
+
+}
+
+.section_padding{
+    padding: 20px 20px 40px;
+}
+
+        /* FLEX GRID */
+
+.flex_grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+
+.flex_grid .column{
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+
+}
+
+
+
+
+
+
+
